@@ -1,18 +1,7 @@
 {
-  "currentVersion": {
-    "version": "v1.0.0",
-    "stage": "当前版本 · Android · Root 增强版",
-    "status": "CURRENT",
-    "features": [
-      "双窗口本地文件管理",
-      "Root 文件操作与五种执行模式",
-      "文本、配置文件与十六进制编辑",
-      "ROM 工坊与常用镜像工具入口"
-    ],
-    "downloadUrl": "https://zip2.webgetstore.com/9665c057acd23166436cd893ea830575/6ac0b0b4/2026/10/02/3230313b2d2c7360127209ae15ffa011.zip?fn=LocalFM-v2.23.35.zip"
-  },
-  "historyTitle": "历史版本与更新说明",
-  "historyDescription": "按版本查看功能范围、体验优化与维护记录；展开每个版本可阅读详细变更。",
+  "currentVersion": "v1.0.0",
+  "historyTitle": "版本说明",
+  "historyDescription": "当前仅展示 v1.0.0 版本。",
   "releases": [
     {
       "version": "v1.0.0",
@@ -45,70 +34,17 @@
           "description": "提供 ROM 工具及常用镜像工具入口。"
         }
       ],
-      "downloadUrl": "https://zip2.webgetstore.com/9665c057acd23166436cd893ea830575/6ac0b0b4/2026/10/02/3230313b2d2c7360127209ae15ffa011.zip?fn=LocalFM-v2.23.35.zip"
-    },
-    {
-      "version": "v0.9.0",
-      "date": "候选版本 · RC",
-      "type": "功能完善",
-      "title": "核心操作体验完善",
-      "summary": "在早期文件管理与执行中心的基础上，集中整理常用操作入口，突出双窗口浏览、Root 操作与脚本执行等核心场景。",
-      "tags": [
-        "双窗口管理",
-        "执行中心",
-        "Root 工具",
-        "ROM 工坊"
-      ],
-      "detailsTitle": "查看完整更新说明",
-      "details": [
-        {
-          "title": "文件管理",
-          "description": "围绕双窗口本地文件浏览的使用场景整理主要入口，便于在不同目录间切换与管理文件。"
-        },
-        {
-          "title": "执行中心",
-          "description": "集中呈现脚本执行相关入口，并以多种执行模式作为功能组织方向。"
-        },
-        {
-          "title": "系统工具",
-          "description": "保留 Root 文件操作、文本／配置文件编辑及十六进制编辑等功能模块入口。"
-        },
-        {
-          "title": "玩机功能",
-          "description": "整理 ROM 工坊与常用镜像工具的访问入口，减少功能分散感。"
-        }
-      ],
-      "downloadUrl": "https://zip2.webgetstore.com/9665c057acd23166436cd893ea830575/6ac0b0b4/2026/10/02/3230313b2d2c7360127209ae15ffa011.zip?fn=LocalFM-v2.23.35.zip"
-    },
-    {
-      "version": "v0.8.0",
-      "date": "早期版本 · Preview",
-      "type": "基础构建",
-      "title": "文件管理基础框架",
-      "summary": "早期功能预览版本，重点围绕本地文件管理、常用系统操作入口和后续功能扩展建立基础结构。",
-      "tags": [
-        "基础文件浏览",
-        "模块化入口",
-        "早期预览"
-      ],
-      "detailsTitle": "查看版本说明",
-      "details": [
-        {
-          "title": "基础框架",
-          "description": "以本地文件管理为主要使用场景，规划常用文件与目录操作的入口。"
-        },
-        {
-          "title": "功能组织",
-          "description": "将系统操作、脚本工具及 ROM 相关能力按模块组织，为后续迭代预留扩展空间。"
-        },
-        {
-          "title": "版本维护",
-          "description": "为早期版本保留独立记录位置，便于后续补充对应安装包、发布日期和实际变更明细。"
-        }
-      ],
-      "downloadUrl": "https://zip2.webgetstore.com/9665c057acd23166436cd893ea830575/6ac0b0b4/2026/10/02/3230313b2d2c7360127209ae15ffa011.zip?fn=LocalFM-v2.23.35.zip"
+      "downloadUrl": "https://zip2.webgetstore.com/9665c057acd23166436cd893ea830575/6ac0b0b4/2026/10/02/3230313b2d2c7360127209ae15ffa011.zip?fn=LocalFM-v2.23.35.zip",
+      "stage": "当前版本 · Android · Root 增强版",
+      "status": "CURRENT",
+      "features": [
+        "双窗口本地文件管理",
+        "Root 文件操作与五种执行模式",
+        "文本、配置文件与十六进制编辑",
+        "ROM 工坊与常用镜像工具入口"
+      ]
     }
   ],
-  "historyNote": "版本说明维护提示：当前页面中的历史记录是根据现有项目介绍整理的功能说明，不代表已核验每个 APK 的实际差异。真实 APK、发布日期、版本变更与兼容性信息待对应发行包确认后补全。",
-  "downloadNote": "下载地址由 versions.json 统一管理：在 currentVersion.downloadUrl 中配置当前版本下载链接，在每条 releases[].downloadUrl 中配置对应历史版本链接。留空时前端会显示“暂未提供下载”，不会跳转到无效地址。"
+  "historyNote": "目前仅保留 v1.0.0 版本记录。",
+  "downloadNote": "所有版本信息（版本号、更新说明、功能标签和下载链接）统一在 versions.json 的 releases 数组中维护；currentVersion 只需填写当前版本号。每次更新只修改此 JSON 文件。"
 }
