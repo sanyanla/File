@@ -34,7 +34,7 @@
           "description": "提供 ROM 工具及常用镜像工具入口。"
         }
       ],
-      "downloadUrl": "https://zip2.webgetstore.com/9665c057acd23166436cd893ea830575/6ac0b0b4/2026/10/02/3230313b2d2c7360127209ae15ffa011.zip?fn=LocalFM-v2.23.35.zip",
+      "downloadUrl": "./downloads/LocalFM-v2.23.35.apk",
       "stage": "当前版本 · Android · Root 临时版本",
       "status": "CURRENT",
       "features": [
