@@ -7,7 +7,7 @@
       "version": "v1.0.0",
       "date": "当前版本 · Stable",
       "type": "当前版本",
-      "title": "常用工具整合版",
+      "title": "临时版本",
       "summary": "将文件管理、系统操作、文本编辑与 ROM 工具集中在统一的应用体验中，便于日常 Android 玩机使用。",
       "tags": [
         "双窗口",
@@ -44,7 +44,5 @@
         "ROM 工坊与常用镜像工具入口"
       ]
     }
-  ],
-  "historyNote": "目前仅保留 v1.0.0 版本记录。",
-  "downloadNote": "所有版本信息（版本号、更新说明、功能标签和下载链接）统一在 versions.json 的 releases 数组中维护；currentVersion 只需填写当前版本号。每次更新只修改此 JSON 文件。"
+  ]
 }
